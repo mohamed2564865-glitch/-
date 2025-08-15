@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>محمد | أعمالي</title>
+  <meta name="description" content="بورتفوليو محمد — مطوّر واجهات بتصاميم عصرية وحلول عملية." />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="#home" aria-label="الرئيسية">
+        <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.88L18.18 22L12 18.56L5.82 22L7 14.15l-5-4.88l6.91-1.01z"/></svg>
+        <span>محمد</span>
+      </a>
+
+      <nav class="main-nav" aria-label="التنقل">
+        <button class="nav-toggle" aria-label="فتح القائمة" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+          <li><a href="#projects" class="nav-link">المشاريع</a></li>
+          <li><a href="#about" class="nav-link">نبذة</a></li>
+          <li><a href="#contact" class="nav-link">تواصل</a></li>
+        </ul>
+      </nav>
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="تبديل الوضع">
+        <span class="icon-sun" aria-hidden="true">☀️</span>
+        <span class="icon-moon" aria-hidden="true">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <p class="eyebrow">مرحباً، أنا</p>
+        <h1>محمد — مطوّر واجهات يعشق الألوان والحِركة</h1>
+        <p class="subtitle">
+          ببني مواقع حديثة تجمع بين الجمال والوظائف. بعشق Dark Mode والتفاصيل الصغيرة اللي تفرق في التجربة.
+        </p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">شوف مشاريعي</a>
+          <a href="#contact" class="btn btn-ghost">خلّينا نتواصل</a>
+        </div>
+
+        <div class="socials">
+          <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="Github" title="Github">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 .5A12 12 0 0 0 0 12.64a12.14 12.14 0 0 0 8.21 11.56c.6.12.82-.27.82-.6c0-.3-.01-1.08-.02-2.11c-3.34.74-4.04-1.64-4.04-1.64c-.55-1.43-1.35-1.81-1.35-1.81c-1.1-.77.08-.76.08-.76c1.22.09 1.86 1.29 1.86 1.29c1.08 1.9 2.84 1.35 3.53 1.03c.11-.8.42-1.35.76-1.66c-2.67-.31-5.48-1.37-5.48-6.08c0-1.34.46-2.43 1.22-3.29c-.12-.31-.53-1.56.12-3.24c0 0 1.01-.33 3.3 1.26a11.2 11.2 0 0 1 6 0c2.28-1.59 3.29-1.26 3.29-1.26c.66 1.68.25 2.93.12 3.24c.77.86 1.21 1.95 1.21 3.29c0 4.72-2.81 5.76-5.49 6.07c.43.38.81 1.12.81 2.27c0 1.64-.01 2.96-.01 3.36c0 .33.21.72.83.6A12.15 12.15 0 0 0 24 12.64A12 12 0 0 0 12 .5Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M6.94 6.5a2.44 2.44 0 1 1 0-4.88a2.44 2.44 0 0 1 0 4.88ZM2.88 21.5h8.12V9.28H2.88V21.5Zm10.12 0h8.12v-6.5c0-3.47-.74-6.16-4.77-6.16c-1.93 0-3.22 1.06-3.75 2.07h-.05V9.28H13v12.22Z"/></svg>
+          </a>
+          <a href="https://x.com/your-username" target="_blank" rel="noopener" aria-label="X" title="X">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M18.244 2H21.5l-7.5 8.57L22.5 22h-5.846l-4.57-5.32L6.8 22H3.54l8.037-9.18L1.5 2h5.96l4.13 4.77L18.244 2Zm-2.06 18h2.17L7.91 4h-2.2l9.474 16Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal delay-1">
+        <div class="glass-card">
+          <img   src="assets/projects/project-6.jpg" alt="صورة محمد" onerror="this.style.display='none'">
+          <div class="blob"></div>
+        </div>
+      </div>
+    </div>
+    <div class="gradient-sep" aria-hidden="true"></div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>مشاريعي</h2>
+        <p>اختيار من أعمالي الأخيرة — واجهات عصرية، متجاوبة، وسريعة.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project Card -->
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="صوره مولد كلمات مرور.jpg" alt="مشروع واجهة متجر" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="project-body">
+            <h3>مولد كلمات مرور قوىه</h3>
+            <p>كلمات مرور قويه صعبه الاختراق </p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JS</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-ghost sm" href="https://mohamed2564865-glitch.github.io/my-website/" target="_blank" rel="noopener">معاينة</a>
+              <a class="btn btn-primary sm" href="#" target="_blank" rel="noopener">الكود</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-1">
+          <div class="project-thumb">
+            <img src="assets/projects/project-2.jpg" alt="لوحة تحكم تفاعلية" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="project-body">
+            <h3>لوحة تحكم</h3>
+            <p>Dashboard متجاوب بإحصائيات ورسوم ديناميكية وحفظ تفضيلات المستخدم.</p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>Chart.js</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-ghost sm" href="#" target="_blank" rel="noopener">معاينة</a>
+              <a class="btn btn-primary sm" href="#" target="_blank" rel="noopener">الكود</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-2">
+          <div class="project-thumb">
+            <img src="assets/projects/project-3.jpg" alt="موقع شخصي ملون" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="project-body">
+            <h3>موقعي الشخصي</h3>
+            <p>بورتفوليو أنيميشينز ناعمة، ألوان متدرجة، وتجربة مظلم/فاتح.</p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JS</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-ghost sm" href="#" target="_blank" rel="noopener">معاينة</a>
+              <a class="btn btn-primary sm" href="#" target="_blank" rel="noopener">الكود</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/projects/project-4.jpg" alt="تطبيق مهام" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="project-body">
+            <h3>تطبيق مهام</h3>
+            <p>To‑Do بفلترة/بحث وحفظ محلي، مع حركات لطيفة.</p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JS</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-ghost sm" href="#" target="_blank" rel="noopener">معاينة</a>
+              <a class="btn btn-primary sm" href="#" target="_blank" rel="noopener">الكود</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-1">
+          <div class="project-thumb">
+            <img src="assets/projects/project-5.jpg" alt="مولد ألوان" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="project-body">
+            <h3>مولّد لوحات ألوان</h3>
+            <p>توليد وتثبيت الألوان مع نسخ سريع للأكواد.</p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JS</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-ghost sm" href="#" target="_blank" rel="noopener">معاينة</a>
+              <a class="btn btn-primary sm" href="#" target="_blank" rel="noopener">الكود</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-2">
+          <div class="project-thumb">
+            <img src="assets/projects/project-6.jpg" alt="لعبة صغيرة" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="project-body">
+            <h3>لعبة متصفح بسيطة</h3>
+            <p>ميكانيكيات خفيفة ورسوميات SVG ممتعة.</p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JS</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-ghost sm" href="#" target="_blank" rel="noopener">معاينة</a>
+              <a class="btn btn-primary sm" href="#" target="_blank" rel="noopener">الكود</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>نبذة عني</h2>
+        <p>مطور واجهات أحب أمزج الإبداع بالتنظيم — ألّون الكود وأرتّب التفاصيل.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            شغوف ببناء تجارب مستخدم بصرية وسلسة. عندي اهتمام خاص بالألوان، الأنميشن، وتحسين الأداء.
+            بحب أشوف الفكرة وهي بتتحول لتجربة ملموسة تنبسط منها.
+          </p>
+          <ul class="bullets">
+            <li><strong>التركيز:</strong> مواقع شخصية، صفحات هبوط، لوحات تحكم.</li>
+            <li><strong>القيمة:</strong> تصميم حديث + كود نظيف + اهتمام بالتفاصيل.</li>
+            <li><strong>الأدوات:</strong> HTML, CSS, JS, Python للتجارب الخلفية.</li>
+          </ul>
+        </div>
+
+        <div class="skills reveal delay-1">
+          <h3>المهارات</h3>
+          <ul class="skill-chips">
+            <li title="HTML5">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path fill="#e34f26" d="M3 2l1.64 18.53L11.98 22l7.39-1.47L21 2H3Zm14.19 5.76l-.12 1.27l-.05.57H9.25l.17 1.9h7.4l-.05.56l-.38 4.24l-.02.2l-4.79 1.09l-4.77-1.09l-.33-3.7h1.87l.17 1.95l3.07.7l3.07-.7l.33-3.66H6.28l-.05-.55l-.12-1.26l-.06-.71h11.23l-.06.69Z"/></svg>
+              <span>HTML</span>
+            </li>
+            <li title="CSS3">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path fill="#1572B6" d="M3 2l1.64 18.53L12 22l7.36-1.47L21 2H3Zm14.05 5.04l-.11 1.28l-.05.57H8.72l.16 1.85h7.29l-.05.56l-.35 3.93l-.02.2l-4.75 1.09l-4.71-1.09l-.28-3.13h1.84l.15 1.72l3 0.7l2.98-.7l.32-3.61H6.42l-.05-.55l-.11-1.27l-.06-.71h10.85l-.05.71Z"/></svg>
+              <span>CSS</span>
+            </li>
+            <li title="JavaScript">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path fill="#f7df1e" d="M3 3h18v18H3z"/><path d="M12.8 17.3c0 1.53-.9 2.23-2.22 2.23c-1.19 0-1.88-.61-2.24-1.35l1.21-.73c.23.41.44.75.95.75c.49 0 .8-.19.8-.92v-5.02h1.5v5.04Zm2.19 2.21c-1.38 0-2.27-.66-2.71-1.54l1.21-.7c.32.52.74.9 1.5.9c.63 0 1.03-.31 1.03-.73c0-.51-.4-.7-1.1-1l-.38-.16c-1.1-.47-1.82-1.06-1.82-2.31c0-1.15.88-2.02 2.25-2.02c.98 0 1.68.34 2.18 1.23l-1.19.76c-.26-.47-.54-.65-.99-.65c-.45 0-.74.29-.74.65c0 .46.29.65.96.94l.38.16c1.28.55 2 1.11 2 2.38c0 1.36-1.07 2.09-2.58 2.09Z"/></svg>
+              <span>JavaScript</span>
+            </li>
+            <li title="Python">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path fill="#3776AB" d="M12.18 2c-4.28 0-4.01 1.86-4.01 1.86v2.05h4.06v.61H6.5S4 6.38 4 10.71s2.27 4.41 2.27 4.41h1.26v-1.77s-.07-2.27 2.23-2.27h3.78s2.16.03 2.16-2.09V3.88S15.96 2 12.18 2Zm-2.4 1.78a.81.81 0 1 1 0 1.62a.81.81 0 0 1 0-1.62Z"/><path fill="#FFD43B" d="M11.82 22c4.28 0 4.01-1.86 4.01-1.86V18.1h-4.06v-.61h5.73S20 17.62 20 13.29s-2.27-4.41-2.27-4.41h-1.26v1.77s.07 2.27-2.23 2.27h-3.78s-2.16-.03-2.16 2.09v4.11S8.04 22 11.82 22Zm2.4-1.78a.81.81 0 1 1 0-1.62a.81.81 0 0 1 0 1.62Z"/></svg>
+              <span>Python</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>تواصل معي</h2>
+        <p>جاهز لمشروعك القادم؟ ابعتلي رسالة أو تواصل مباشرة.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form id="contact-form" class="contact-form reveal" novalidate>
+          <div class="field">
+            <label for="name">الاسم</label>
+            <input id="name" name="name" type="text" placeholder="اسمك الكامل" required>
+            <small class="error-msg"></small>
+          </div>
+          <div class="field">
+            <label for="email">البريد الإلكتروني</label>
+            <input id="email" name="email" type="email" placeholder="name@example.com" required>
+            <small class="error-msg"></small>
+          </div>
+          <div class="field">
+            <label for="message">الرسالة</label>
+            <textarea id="message" name="message" rows="5" placeholder="أخبرني عن فكرتك..." required></textarea>
+            <small class="error-msg"></small>
+          </div>
+          <button type="submit" class="btn btn-primary">إرسال</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-card reveal delay-1">
+          <div class="contact-item">
+            <strong>البريد:</strong>
+            <a href="mailto:mohamed2564865@gmail.com">mohamed2564865@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <strong>واتساب:</strong>
+            <a href="https://wa.me/201000000000" target="_blank" rel="noopener">+20 1060987677</a>
+          </div>
+          <div class="contact-item">
+            <strong>السكن:</strong>
+            <span>الغربية، مصر</span>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-ghost" href="assets/CV.pdf" download>تحميل السيرة الذاتية</a>
+            <a class="btn btn-primary" href="#projects">استعرض الأعمال</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> محمد. كل الحقوق محفوظة.</p>
+      <a href="#home" class="back-top" aria-label="إلى الأعلى">⬆</a>
+    </div>
+  </footer>
+</body>
+</html>
